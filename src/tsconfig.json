@@ -20,6 +20,8 @@
     "main.ts",
     "typings.d.ts",
     "app/todo.ts",
-    "app/todo.spec.ts"
+    "app/todo.spec.ts",
+    "app/todo.service.ts",
+    "app/todo.service.spec.ts"
   ]
 }
