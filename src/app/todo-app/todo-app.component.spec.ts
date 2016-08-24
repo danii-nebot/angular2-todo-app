@@ -11,10 +11,13 @@ import {
 } from '@angular/core/testing';
 
 import { TodoAppComponent } from './todo-app.component';
+import { TodoService } from '../todo.service';
+
+beforeEachProviders(() => [TodoAppComponent, TodoService]);
 
 describe('Component: TodoApp', () => {
-  it('should create an instance', () => {
-    let component = new TodoAppComponent();
+  it('should create an instance', inject([TodoService], (todoService: TodoService) => {
+    let component = new TodoAppComponent(todoService);
     expect(component).toBeTruthy();
-  });
+  }));
 });
