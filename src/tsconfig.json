@@ -18,12 +18,6 @@
 
   "files": [
     "main.ts",
-    "typings.d.ts",
-    "app/todo.ts",
-    "app/todo.spec.ts",
-    "app/todo.service.ts",
-    "app/todo.service.spec.ts",
-    "app/todo-app/todo-app.component.ts",
-    "app/todo-app/todo-app.component.spec.ts"
+    "typings.d.ts"
   ]
 }
