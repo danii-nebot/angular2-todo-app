@@ -3,6 +3,8 @@
 # compiled output
 /dist
 /tmp
+sytem-config.js
+/src/app/*.js
 
 # dependencies
 /node_modules
